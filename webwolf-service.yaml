@@ -10,7 +10,6 @@ spec:
   type: LoadBalancer
   ports:
   - port: 9090
-    nodePort: 30090
     protocol: TCP
   selector:
     app: webwolf    
