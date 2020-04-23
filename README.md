@@ -16,11 +16,9 @@ Sie können  WebGoat installieren und üben. In jeder Lektion müssen Benutzer i
 
 Warum der Name "WebGoat"? Entwickler sollten sich nicht schlecht fühlen, wenn sie die Sicherheitsschwachstellen nicht kennen. Selbst die besten Programmierer machen Sicherheitsfehler. Was sie brauchen, ist ein Sündenbock, richtig? Die Ziege !
 
+http://${ADDR}:30372/WebGoat/start.mvc
 
-http://192.168.137.100:30372/WebGoat/start.mvc
-
-http://localhost:8080/WebGoat/start.mvc#lesson/WebWolfIntroduction.lesson
-
+http://${ADDR}:8080/WebGoat/start.mvc#lesson/WebWolfIntroduction.lesson
 
 ### Links
 
