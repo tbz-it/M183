@@ -3,4 +3,4 @@
 # WebGoat starten
 
 export KUBECONFIG=$HOME/.kube/config
-kubectl apply -f ~/M183
+kubectl apply -f ~/M183/
