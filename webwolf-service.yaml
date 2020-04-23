@@ -7,9 +7,10 @@ metadata:
     group: web
     tier: frontend
 spec:
-  type: NodePort
+  type: LoadBalancer
   ports:
   - port: 9090
+    nodePort: 30090
     protocol: TCP
   selector:
     app: webwolf    
