@@ -10,7 +10,6 @@ spec:
   type: LoadBalancer
   ports:
   - port: 8080
-    nodePort: 30080
     protocol: TCP
   selector:
     app: webgoat
