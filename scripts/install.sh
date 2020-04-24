@@ -1,8 +1,8 @@
 #!/bin/bash
 # 
 
-# Intro - konkurrenziert mit traefik
-# bash -x /opt/lernmaas/helper/intro
+# Intro
+bash -x /opt/lernmaas/helper/intro
 
 # WebGoat starten
 export KUBECONFIG=$HOME/.kube/config
